@@ -208,6 +208,10 @@ div.custom-counter div:before {
     color: linear-gradient(to bottom right, #FF79DA, #9356DC);
 }
 
+.footer-text a {
+    text-decoration: none;
+    color:white;
+}
 
 .card-text p {
     margin: 0;
