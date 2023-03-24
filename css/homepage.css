@@ -142,9 +142,13 @@ div.custom-counter div:before {
     color: gray;
 }
 
+.stepper:hover .fa-solid,
+.stepper:active .fa-solid {
+    color: #9356DC !important;
+}
 
-
-.custom-counter:active {
+.stepper:active,
+.stepper:hover {
     color: #9356DC !important;
 }
 
