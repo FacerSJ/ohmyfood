@@ -142,6 +142,39 @@ div.custom-counter div:before {
     color: gray;
 }
 
+.card-content a {
+    display: grid;
+    text-decoration: none;
+}
+
+.fa-heart {
+    grid-row: 1;
+    grid-column: 1
+}
+
+.card-content a:active .fa-solid {
+    animation: fillUpHeart 1s 1;
+}
+
+.fa-solid {
+    opacity: 0;
+    background: linear-gradient(#FF79DA, #9356DC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes fillUpHeart {
+    0% {}
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
 .stepper:hover .fa-solid,
 .stepper:active .fa-solid {
     color: #9356DC !important;
