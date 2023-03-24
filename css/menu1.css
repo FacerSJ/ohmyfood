@@ -15,7 +15,12 @@ article h4 {
 
 /* header */
 
-
+.content p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+}
 
 .arrow-icon {
     color: rgb(54, 54, 54);
