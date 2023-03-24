@@ -15,7 +15,7 @@ h4 {
     margin-block-start: 0em;
     margin-block-end: 0em;
     margin-inline-start: 0px;
-    margin-inline-end: 0p
+    margin-inline-end: 0px;
 }
 
 /* header */
@@ -142,7 +142,9 @@ div.custom-counter div:before {
     color: gray;
 }
 
-.custom-counter .fa-store {
+
+
+.custom-counter:active {
     color: #9356DC !important;
 }
 
@@ -205,12 +207,12 @@ div.custom-counter div:before {
 
 
 .fa-solid a:hover {
-    color: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
 }
 
 .footer-text a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 .card-text p {
