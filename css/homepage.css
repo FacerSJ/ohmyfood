@@ -92,6 +92,36 @@ header img {
     box-shadow: var(--boxShadowDefault);
 }
 
+.loader{
+    color: black;
+    position: fixed;
+    font-size: 5em;
+    top: 30%;
+    left: 30%;
+    animation: spinner 1s infinite, fading 3s 1 reverse forwards;
+}
+
+main{
+    opacity: 0;
+    animation: fading 4s 1 forwards;
+}
+
+@keyframes fading {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+@keyframes spinner{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
 .book-menu span:hover,
 .book-menu span:active {
     box-shadow: var(--boxShadowIncreased);
