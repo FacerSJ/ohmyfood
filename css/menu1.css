@@ -12,6 +12,22 @@ article h4 {
     font-weight: normal;
 }
 
+.full-palette article{
+    opacity: 0;
+    animation: fading 3s 1 forwards;
+}
+
+@keyframes fading {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+
 
 /* header */
 
@@ -93,6 +109,7 @@ article h4 {
     background-color: white;
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
     padding: 5px;
     margin: 20px;
     font-size: 107%;
