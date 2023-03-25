@@ -2,4 +2,4 @@
 
 Repo link: https://github.com/FacerSJ/ohmyfood-main
 
-Deployment Link: <to-be-added>
+Deployment Link:  https://facersj.github.io/ohmyfood-main/
