@@ -11,24 +11,53 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    main .full-palette {
+
+    main .full-palette,
+    .mainWrapper {
         width: 90%;
     }
 
     .entrees,
     .main-dish,
-    .desserts {
-        width: 32%;
+    .desserts,
+    .mainWrapper .restaurants-section {
+        width: 62%;
     }
 
-    body{
+    .how-it-works {
+        width: 100%;
+        padding: 0% 30%;
+    }
+
+    .restaurants-section {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .restaurants-section h2 {
+        width: 100%;
+    }
+
+    .restaurants-section .card {
+        width: 34%;
+        height: 20em;
+    }
+
+    body {
         background-color: #f6f6f6;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    main .full-palette {
-        width: 80%;
+
+    main .full-palette,
+    .mainWrapper {
+        width: 100%;
+        padding: 3em 0em;
     }
 }
