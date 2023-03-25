@@ -50,12 +50,28 @@
     body {
         background-color: #f6f6f6;
     }
+
+    main .full-palette {
+        width: 90%;
+    }
+
+    .entrees,
+    .main-dish,
+    .desserts {
+        width: 32%;
+    }
+
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    main .full-palette {
+        width: 70%;
+        padding: 3em 0em;
 
-    main .full-palette,
+    }
+
     .mainWrapper {
         width: 100%;
         padding: 3em 0em;
