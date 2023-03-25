@@ -56,8 +56,10 @@ article h4 {
 
 
 
-
 /* header */
+.content{
+    width: 80%;
+}
 
 .content p {
     white-space: nowrap;
@@ -69,7 +71,7 @@ article h4 {
 .arrow-icon {
     color: rgb(54, 54, 54);
     font-size: 25px;
-    position: relative;
+    position: absolute;
     top: 20px;
     left: 20px;
 }
@@ -145,7 +147,7 @@ article h4 {
 }
 
 .full-palette {
-    background-color: rgba(167, 166, 166, 0.089);
+    background-color: #f6f6f6;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding-bottom: 60px;
