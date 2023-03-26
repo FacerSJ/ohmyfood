@@ -46,6 +46,10 @@ header img {
 
 }
 
+header h1 {
+    margin: 7px;
+}
+
 
 
 /* explore location */
@@ -66,6 +70,10 @@ header img {
     justify-content: center;
     align-items: center;
     padding-right: 15px;
+}
+
+.how-it-works h2 {
+    padding-top: 40px;
 }
 
 .book-menu {
@@ -92,10 +100,22 @@ header img {
     color: white;
     padding: 15px 20px;
     border-radius: 50px;
+    margin-top: 30px;
 }
 
 .book-menu span {
     box-shadow: var(--boxShadowDefault);
+}
+
+.new {
+    margin-top: 10px;
+    position: absolute;
+    left: 74%;
+    color: green;
+    background-color: #99E2D0;
+    padding: 4px 20px;
+    font-size: 13px;
+
 }
 
 .loader {
@@ -103,7 +123,7 @@ header img {
     position: fixed;
     font-size: 5em;
     top: 30%;
-    left: 30%;
+    left: 40%;
     animation: spinner 1s infinite, fading 3s 1 reverse forwards;
 }
 
@@ -277,6 +297,7 @@ div.custom-counter div:before {
 
 .restaurants-section h2 {
     padding-bottom: 0;
+    margin-left: 20px;
 }
 
 .card {
