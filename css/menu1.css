@@ -3,6 +3,11 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.header h1 {
+    margin: 0;
+    padding-top: 5px
+}
+
 h2 {
     font-family: 'Shrikhand';
     margin: 20px;
@@ -70,7 +75,7 @@ article h4 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 80%;
+    
 }
 
 .arrow-icon {
@@ -156,8 +161,9 @@ article h4 {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     padding-bottom: 60px;
-    /* position: absolute;
-    z-index: 20; */
+    position: absolute;
+    top: 35%;
+   
 
 }
 
@@ -212,6 +218,7 @@ article h4 {
 
 .cards-title {
     margin-left: 20px;
+    padding-top: 25px;
 }
 
 .cards {
@@ -219,11 +226,11 @@ article h4 {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 0px 5px;
-    padding-right: 0px;
+    padding: 15px 0px;
+    padding: left;
+    padding-left: 15px;
     overflow: hidden;
     margin: 20px;
-    height: 4em;
     font-size: 107%;
     font-weight: 500;
     border-radius: 20px;
@@ -248,6 +255,10 @@ article h4 {
 
 }
 
+.content p {
+    margin-top: 5px
+}
+
 .content-desciption {
     display: flex;
     justify-content: center;
@@ -259,12 +270,13 @@ article h4 {
     display: flex;
     background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
     color: white;
-    padding: 15px 20px;
+    padding: 15px 60px;
     border-radius: 50px;
     align-items: center;
     justify-content: center;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 20px;
 }
 
 /* footer */
@@ -275,6 +287,9 @@ article h4 {
 }
 
 footer {
+    position: absolute;
+    top: 230%;
+    width: 90%;
     background-color: rgb(54, 54, 54);
     padding: 5%;
 

@@ -6,6 +6,8 @@
     .desserts {
         width: 100%;
     }
+
+    
 }
 
 
@@ -15,6 +17,7 @@
     main .full-palette,
     .mainWrapper {
         width: 90%;
+        position: relative;
     }
 
     .entrees,
