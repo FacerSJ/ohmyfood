@@ -174,7 +174,41 @@ article h4 {
     padding-right: 40px;
     font-size: 23px;
     color: rgb(73, 73, 73);
+    /* display solid heart inside regular heart */
+    display: grid;
+    text-decoration: none;
 }
+
+.fa-heart {
+    grid-row: 1;
+    grid-column: 1
+}
+
+.heart-icon:active .fa-solid,
+.heart-icon:hover .fa-solid {
+    animation: fillUpHeart 1s 1 forwards;
+}
+
+.heart-icon .fa-solid {
+    opacity: 0;
+    background: linear-gradient(#FF79DA, #9356DC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes fillUpHeart {
+    0% {}
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
 
 .cards-title {
     margin-left: 20px;
