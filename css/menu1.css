@@ -45,7 +45,7 @@ article h4 {
 }
 
 .Check {
-    background: limegreen;
+    background: #99E2D0;
     padding: 1em;
     width: 100%;
     height: 100%;
@@ -75,7 +75,7 @@ article h4 {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    
+
 }
 
 .arrow-icon {
@@ -250,7 +250,7 @@ article h4 {
     /* Change this to whatever width you want. */
     padding-top: 10px;
     /* This creates some space between the element and the border. */
-    border-bottom: 1px solid aquamarine;
+    border-bottom: 1px solid #99E2D0;
     /* This creates the border. Replace black with whatever color you want. */
 
 }
