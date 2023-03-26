@@ -64,6 +64,11 @@
         width: 32%;
     }
 
+    footer {
+        position: relative;
+
+    }
+
 
 }
 
@@ -79,4 +84,10 @@
         width: 100%;
         padding: 3em 0em;
     }
+
+    footer {
+        position: relative;
+
+    }
+
 }
