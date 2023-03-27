@@ -54,6 +54,18 @@
         height: 20em;
     }
 
+    .new {
+        margin-top: 10px;
+        position: relative;
+        left: 65%;
+        color: green;
+        background-color: #99E2D0;
+        padding: 4px 20px;
+        font-size: 13px;
+    
+    }
+    
+
     body {
         background-color: #f6f6f6;
     }
@@ -94,6 +106,23 @@
         width: 100%;
         padding: 3em 0em;
     }
+
+    .new {
+        margin-top: 10px;
+        position: relative;
+        top: 4%;
+        left: 75%;
+        color: green;
+        background-color: #99E2D0;
+        padding: 4px 20px;
+        font-size: 13px;
+        text-decoration: none;
+
+    
+    }
+
+    
+    
 
     footer {
         position: relative;

@@ -109,8 +109,9 @@ header h1 {
 
 .new {
     margin-top: 10px;
-    position: absolute;
-    left: 74%;
+    position: relative;
+    left: 76%;
+    top: 4%;
     color: green;
     background-color: #99E2D0;
     padding: 4px 20px;
