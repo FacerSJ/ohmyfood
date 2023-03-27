@@ -18,6 +18,10 @@
         background-color: white;
     }
 
+    .paris-location {
+        padding: 13px;
+    }
+
     main .full-palette,
     .mainWrapper {
         width: 90%;
@@ -47,6 +51,8 @@
 
     .restaurants-section h2 {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .restaurants-section .card {
@@ -93,6 +99,10 @@
 
     header {
         background-color: white;
+    }
+
+    .paris-location {
+        padding: 13px;
     }
 
 

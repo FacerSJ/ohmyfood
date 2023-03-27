@@ -76,6 +76,10 @@ header h1 {
     padding-top: 40px;
 }
 
+/* .how-it-works p {
+
+} */
+
 .book-menu {
     background-color: #f6f6f6;
     text-align: center;
@@ -101,11 +105,17 @@ header h1 {
     padding: 15px 20px;
     border-radius: 50px;
     margin-top: 30px;
+    box-shadow: var(--boxShadowDefault);
+
 }
 
-.book-menu span {
-    box-shadow: var(--boxShadowDefault);
+.book-menu span:hover,
+.book-menu span:active {
+    box-shadow: var(--boxShadowIncreased);
+    background-image: linear-gradient(to bottom right, #ffb1e9, #af86e0) !important;
 }
+
+
 
 .new {
     margin-top: 10px;
@@ -174,25 +184,7 @@ main .full-pallete-title {
     }
 }
 
-.book-menu span:hover,
-.book-menu span:active {
-    box-shadow: var(--boxShadowIncreased);
-}
 
-
-
-/* how it works */
-
-/* .mainWrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
-
-/* .how-it-works {
-    display: flex;
-    flex-wrap: wrap;
-} */
 
 
 div.custom-counter {
@@ -200,7 +192,7 @@ div.custom-counter {
 }
 
 /* * customising the numbers before our list * */
-div.custom-counter div:before {
+.custom-counter div:before {
     counter-increment: list-number;
     content: counter(list-number);
     width: 25px;
@@ -215,6 +207,8 @@ div.custom-counter div:before {
     position: relative;
     right: 15px;
 }
+
+
 
 
 .custom-counter div {
@@ -271,14 +265,19 @@ div.custom-counter div:before {
 }
 
 
-.stepper:hover .fa-solid,
-.stepper:active .fa-solid {
-    color: #9356DC !important;
+.custom-counter a:hover .fa-solid,
+.custom-counter a:active .fa-solid {
+    color: #9356DC;
 }
 
-.stepper:active,
-.stepper:hover {
-    color: #9356DC !important;
+.custom-counter i:active,
+.custom-counter i:hover {
+    color: #9356DC;
+}
+
+.custom-counter p:hover,
+.custom-counter p:active {
+    color: black !important;
 }
 
 
@@ -403,20 +402,3 @@ footer .fa-solid {
     padding-right: 10px;
 }
 
-
-
-/* @media only screen and (min-width: 600px) {
-    .restaurants-section {
-        width: 60%;
-        flex-direction: row;
-    }
-
-    
-}
-
-@media only screen and (min-width: 992px) {
-    .restaurants-section {
-        width: 40%;
-    }
-
-} */
