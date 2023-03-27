@@ -126,7 +126,9 @@ article h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60%;
+    /* height: 60%; */
+    padding: 25px;
+
 }
 
 @keyframes slide {
@@ -146,7 +148,8 @@ article h4 {
 }
 
 .price {
-    margin: 0 20px
+    /* margin: 0 20px; */
+    margin-left: 70px;
 }
 
 .Check i {
@@ -265,9 +268,6 @@ article h4 {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    padding: 15px 0px;
-    padding: left;
-    padding-left: 15px;
     overflow: hidden;
     margin: 20px;
     font-size: 107%;
@@ -292,6 +292,12 @@ article h4 {
     border-bottom: 1px solid #99E2D0;
     /* This creates the border. Replace black with whatever color you want. */
 
+}
+
+.cards-content {
+    display: flex;
+    align-items: end;
+    padding: 11.2px;
 }
 
 .content p {
