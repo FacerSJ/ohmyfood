@@ -14,11 +14,18 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+    .loader {
+        top: 40%;
+        left: 50%;
+
+    }
+
+
     header {
         background-color: white;
     }
 
-    
+
 
     .paris-location {
         padding: 13px;
@@ -99,6 +106,11 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+    .loader {
+        top: 40%;
+        left: 50%;
+    }
+
     header {
         background-color: white;
     }
@@ -107,7 +119,7 @@
         padding: 13px;
     }
 
-   
+
 
 
     main .full-palette {
