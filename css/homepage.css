@@ -152,21 +152,6 @@ main {
 
 }
 
-main .full-palette-img {
-    width: 100%;
-}
-
-main .full-palette {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-main .full-pallete-title {
-    width: 100%;
-}
-
 @keyframes fading {
     0% {
         opacity: 0%;
@@ -183,6 +168,25 @@ main .full-pallete-title {
         transform: rotate(360deg);
     }
 }
+
+
+
+main .full-palette-img {
+    width: 100%;
+}
+
+main .full-palette {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .full-pallete-title {
+    width: 100%;
+}
+
+
 
 
 
