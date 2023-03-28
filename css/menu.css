@@ -280,35 +280,7 @@ article h4 {
     transform: rotate(0turn);
 }
 
-/* .cards:active .Check i {
-    animation: spinner 1s 1 forwards;
-}
 
-.cards:active .Check {
-    animation: slide 1s 1 forwards;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60%;
-    padding: 25px;
-
-}
-
-@keyframes slide {
-    0% {
-        transform: translateX(100%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-@keyframes spinner {
-    100% {
-        transform: rotate(360deg);
-    }
-} */
 
 
 .order-button {
